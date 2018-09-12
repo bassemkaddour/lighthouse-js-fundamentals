@@ -1,0 +1,19 @@
+var ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking powder", "chocolate chips", "bananas"];
+
+// Write a while loop that prints out the contents of ingredients:
+
+let count = 0
+while (count < ingredients.length){
+  console.log(ingredients[count]);
+  count++;
+}
+// Write a for loop that prints out the contents of ingredients:
+
+for (let duke = 0; duke < ingredients.length; duke++) {
+  console.log(ingredients[duke]);
+}
+// Write any loop (while or for) that prints out the contents of ingredients backwards:
+
+for (let duchess = ingredients.length; duchess != 0; duchess--) {
+  console.log(ingredients[duchess - 1]);
+}
